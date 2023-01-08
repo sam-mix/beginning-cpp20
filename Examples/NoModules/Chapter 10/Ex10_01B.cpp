@@ -1,5 +1,4 @@
 // Using a function template
-#include <format>
 #include <iostream>
 #include <string>
 
