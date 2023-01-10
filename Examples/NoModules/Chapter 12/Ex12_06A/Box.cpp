@@ -1,15 +1,12 @@
-#include <iostream>
 #include "Box.h"
+
+#include <iostream>
 
 // Constructor definition
 Box::Box(double length, double width, double height)
-  : m_length{ length }, m_width{ width }, m_height{ height }
-{
+    : m_length{length}, m_width{width}, m_height{height} {
   std::cout << "Box constructor called." << std::endl;
 }
 
 // Member function definition
-double Box::volume()
-{
-  return m_length * m_width * m_height;
-}
+double Box::volume() { return m_length * m_width * m_height; }

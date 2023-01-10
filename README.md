@@ -14,3 +14,11 @@ we recommend using the following Git command:
 ## Contributions
 
 See the file [Contributing.md](Contributing.md) for more information on how you can contribute to this repository.
+
+
+
+## cpp modules
+
+```bash
+cd "/root/ws/beginning-cpp20/Cpp23/" && g++ -fmodules-ts -std=c++23 00001.std.cpp -o 00001.std.exe && "/root/ws/beginning-cpp20/Cpp23/"00001.std.exe
+```
