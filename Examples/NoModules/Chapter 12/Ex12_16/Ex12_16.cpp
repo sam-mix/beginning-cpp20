@@ -1,5 +1,6 @@
 // Implementing a destructor
 #include <iostream>
+#include <memory>
 
 #include "Box.h"
 
