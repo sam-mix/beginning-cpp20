@@ -18,7 +18,8 @@ class Box {
   }
 
   void listBox() const {
-    std::cout << m_length << " , " << m_width << " , " << m_height;
+    std::cout << "Box(" << m_length << " , " << m_width << " , " << m_height
+              << ")";
   }
 
  private:

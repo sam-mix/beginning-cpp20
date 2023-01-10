@@ -31,7 +31,7 @@ void Truckload::listBoxes() const {
   size_t count{};
   for (Package* package{m_head}; package; package = package->getNext()) {
     std::cout << ' ';
-    package->getBox().listBox();
+    package->getBox()->listBox();
     if (!(++count % boxesPerLine)) std::cout << std::endl;
   }
   if (count % boxesPerLine) std::cout << std::endl;
